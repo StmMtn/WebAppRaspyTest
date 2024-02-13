@@ -9,4 +9,4 @@ class RotatingBlockGenerator(SampleBase):
         offset_canvas = self.matrix.SwapOnVSync(offset_canvas)
         
 if __name__ == "__main__":
-    rotating_block_generator = RotatingBlockGenerator()
+    rotating_block_generator = RotatingBlockGenerator(x=32,y=32)
